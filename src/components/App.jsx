@@ -63,7 +63,6 @@ export class App extends Component {
         <Filter value={filter} onChange={this.changeFilter} />
         <ContactList
           contacts={visibleContact}
-          filter={filter}
           onDeleteContact={this.handleDelete}
         />
       </SectionPhonebook>
